@@ -15,13 +15,13 @@ def palindrome():
 
 def greeting():
     name = input("What is your name?")
-    print(" How nice to meet you " + str(name) + "!")
+    print(" How nice to meet you " + str(name) + "!  Have a Fantastic Day!")
 
 
 def isMultiple():
-    num1 = input("number 1")
-    num2 = input("number 2")
-    if int(num1) % int(num2) == 0:
+    num2 = input(" number 1 ")
+    num1 = input(" number 2 ")
+    if int(num2) % int(num1) == 0:
                        print(str(num1) + " is a multiple of " + str(num2))
     else:
         print(str(num1) + " is not a multiple of " + str(num2))
@@ -34,7 +34,7 @@ def main():
     if program == "greeting":
         res = greeting()
     if program == "factor":
-        res = ismultiple()
+        res = isMultiple()
     if program == "palindrome":
         res = palindrome()
     
